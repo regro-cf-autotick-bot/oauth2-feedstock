@@ -11,7 +11,7 @@ source:
   sha256: c006a85e7c60107c7cc6da1b184b5c719f6dd7202098196dfa6e55df669b59bf
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -41,4 +41,3 @@ about:
 extra:
   recipe-maintainers:
     - mxr-conda
-    - Admax18
